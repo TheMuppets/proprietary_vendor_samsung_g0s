@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/g0s
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/g0s/proprietary/recovery/lib/firmware/sgpu/vangogh_lite_unified.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/sgpu/vangogh_lite_unified.bin \
     vendor/samsung/g0s/proprietary/recovery/root/vendor/firmware/tsp_stm/fts2ba61y_g0.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/tsp_stm/fts2ba61y_g0.bin \
     vendor/samsung/g0s/proprietary/vendor/etc/dqe/calib_data_colormode0_s6e3fac_g0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dqe/calib_data_colormode0_s6e3fac_g0.xml \
     vendor/samsung/g0s/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
@@ -77,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/g0s/proprietary/vendor/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_:$(TARGET_COPY_OUT_VENDOR)/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_ \
     vendor/samsung/g0s/proprietary/vendor/tee/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/ffffffff-0000-0000-0000-000000000030 \
     vendor/samsung/g0s/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100 \
-    vendor/samsung/g0s/proprietary/vendor_ramdisk/lib/firmware/sgpu/vangogh_lite_unified.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/sgpu/vangogh_lite_unified.bin \
     vendor/samsung/g0s/proprietary/vendor_ramdisk/vendor/firmware/tsp_stm/fts2ba61y_g0.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/tsp_stm/fts2ba61y_g0.bin
 
 PRODUCT_PACKAGES += \
@@ -95,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/g0s/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/g0s/proprietary/vendor/etc/dqe/calib_data_atc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dqe/calib_data_atc.xml \
     vendor/samsung/g0s/proprietary/vendor/etc/dqe/calib_data_colormode0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dqe/calib_data_colormode0.xml \
+    vendor/samsung/g0s/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/g0s/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/g0s/proprietary/vendor/etc/mixer_usb_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_usb_default.xml \
     vendor/samsung/g0s/proprietary/vendor/etc/mixer_usb_gray.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_usb_gray.xml \
