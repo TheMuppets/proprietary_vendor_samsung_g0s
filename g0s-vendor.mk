@@ -36,46 +36,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/g0s/proprietary/vendor/firmware/tsp_stm/fts2ba61y_g0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fts2ba61y_g0.bin \
     vendor/samsung/g0s/proprietary/vendor/firmware/uwb/libsr100t_dev_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uwb/libsr100t_dev_fw.bin \
     vendor/samsung/g0s/proprietary/vendor/firmware/uwb/libsr100t_prod_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uwb/libsr100t_prod_fw.bin \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000020081 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000534b4d \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-000048444350:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000048444350 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-0000534b504d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0000534b504d \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-0050524f4341:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0050524f4341 \
     vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-0053545354ab:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0053545354ab \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-00575644524d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-00575644524d \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-42494f535542:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-42494f535542 \
     vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-46494e474502:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-46494e474502 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-4662436b6d52:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-4662436b6d52 \
     vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-474154454b45:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-474154454b45 \
     vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-487641557457:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-487641557457 \
     vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-4b45594d5354:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-4b45594d5354 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-4d5053545549:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-4d5053545549 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-4d704e434954:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-4d704e434954 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-4d70536b566e:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-4d70536b566e \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-4d7073534d43:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-4d7073534d43 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-4d7073617574:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-4d7073617574 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-505256544545:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-505256544545 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-534258505859:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-534258505859 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-5345435f4652:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-5345435f4652 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-53454d655345:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-53454d655345 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-54412d48444d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-54412d48444d \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-54496473706c:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-54496473706c \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-544974684c6c:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-544974684c6c \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-564c544b5052:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-564c544b5052 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-64756c444152:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-64756c444152 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-656e676d6f64:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-656e676d6f64 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-657365636f6d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-657365636f6d \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-6b6e78677564:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-6b6e78677564 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-6d706f667376:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-6d706f667376 \
-    vendor/samsung/g0s/proprietary/vendor/tee/00000000-0000-0000-0000-6d73745f5441:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-6d73745f5441 \
     vendor/samsung/g0s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-494363447256:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-494363447256 \
-    vendor/samsung/g0s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-4d53546d7374 \
     vendor/samsung/g0s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-53626f786476 \
-    vendor/samsung/g0s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-564c544b4456 \
-    vendor/samsung/g0s/proprietary/vendor/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_:$(TARGET_COPY_OUT_VENDOR)/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_ \
-    vendor/samsung/g0s/proprietary/vendor/tee/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/ffffffff-0000-0000-0000-000000000030 \
-    vendor/samsung/g0s/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100 \
     vendor/samsung/g0s/proprietary/vendor_ramdisk/vendor/firmware/tsp_stm/fts2ba61y_g0.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/tsp_stm/fts2ba61y_g0.bin
 
 PRODUCT_PACKAGES += \
@@ -98,45 +65,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/g0s/proprietary/vendor/etc/mixer_usb_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_usb_default.xml \
     vendor/samsung/g0s/proprietary/vendor/etc/mixer_usb_gray.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_usb_gray.xml \
     vendor/samsung/g0s/proprietary/vendor/etc/mixer_usb_white.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_usb_white.xml \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-000000010081 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-000000020081 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-000000534b4d \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-000048444350:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-000048444350 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-0000534b504d:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-0000534b504d \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-0050524f4341:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-0050524f4341 \
     vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-0053545354ab:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-0053545354ab \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-00575644524d:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-00575644524d \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-42494f535542:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-42494f535542 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-4662436b6d52:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-4662436b6d52 \
     vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-474154454b45:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-474154454b45 \
     vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-487641557457:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-487641557457 \
     vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-4b45594d5354:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-4b45594d5354 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-4d5053545549:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-4d5053545549 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-4d704e434954:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-4d704e434954 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-4d70536b566e:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-4d70536b566e \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-4d7073534d43:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-4d7073534d43 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-4d7073617574:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-4d7073617574 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-505256544545:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-505256544545 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-534258505859:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-534258505859 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-5345435f4652:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-5345435f4652 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-53454d655345:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-53454d655345 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-54412d48444d:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-54412d48444d \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-54496473706c:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-54496473706c \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-544974684c6c:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-544974684c6c \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-564c544b5052:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-564c544b5052 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-64756c444152:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-64756c444152 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-656e676d6f64:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-656e676d6f64 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-657365636f6d:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-657365636f6d \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-6b6e78677564:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-6b6e78677564 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-6d706f667376:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-6d706f667376 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/00000000-0000-0000-0000-6d73745f5441:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/00000000-0000-0000-0000-6d73745f5441 \
     vendor/samsung/g0s/proprietary/vendor/etc/tee_new/driver/00000000-0000-0000-0000-494363447256:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/driver/00000000-0000-0000-0000-494363447256 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/driver/00000000-0000-0000-0000-4d53546d7374:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/driver/00000000-0000-0000-0000-4d53546d7374 \
     vendor/samsung/g0s/proprietary/vendor/etc/tee_new/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/driver/00000000-0000-0000-0000-53626f786476 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/driver/00000000-0000-0000-0000-564c544b4456 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/driver/18d9f073-18a5-4ade-9def-875e07f7f293_:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/driver/18d9f073-18a5-4ade-9def-875e07f7f293_ \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/ffffffff-0000-0000-0000-000000000030 \
-    vendor/samsung/g0s/proprietary/vendor/etc/tee_new/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/etc/tee_new/tui/resolution_common/ID00000100 \
     vendor/samsung/g0s/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/samsung/g0s/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/samsung/g0s/proprietary/vendor/firmware/AIE.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AIE.bin \
